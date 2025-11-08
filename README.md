@@ -4,7 +4,7 @@
 
 ---
 
-SUMMARY (for alignment & interpretability researchers)
+### 📝 Summmary (for alignment & interpretability researchers)
 
 This repository models alignment faking as a continuous phase transition in a reaction–diffusion field.
 The simulation represents deep model values and surface-level behaviors as interacting coherence fields that evolve under training pressure, adversarial noise, and coupling strength.
