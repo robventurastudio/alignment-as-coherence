@@ -1,0 +1,12 @@
+
+FIGURE 1 — Reaction–Diffusion Baseline
+Demonstrates fundamental coherence propagation in a homogeneous field. Front velocity c ≈ 2√(Dλ).
+
+FIGURE 2 — Extended Dynamics Under Attack
+Shows heterogeneous diffusion and adversarial pressure; system maintains coherence through adaptive feedback.
+
+FIGURE 3 — Alignment Faking Detector
+Visualizes hidden preference islands; regions where surface alignment diverges from deep values.
+
+FIGURE 4 — Phase Transition and Critical Strength
+Displays continuous phase transition in alignment dynamics, critical strength ≈ 1.81 marking faking→genuine crossover.
