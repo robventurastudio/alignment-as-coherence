@@ -35,3 +35,12 @@ All scripts are:
 - intended as conceptual & experimental tools, not production systems.
 
 For a high-level summary, see `ABSTRACT.txt` and `MANIFEST.txt`.
+
+## 📊 Key Figures
+
+| Figure | Preview | Description |
+|--------|----------|--------------|
+| **Fig. 1** – Reaction–Diffusion Baseline | ![](figures/fig1_reaction_diffusion_baseline.png) | Coherence propagation in a homogeneous belief field; verifies the universal speed of coherence \( c = 2\sqrt{D\lambda} \). |
+| **Fig. 2** – Extended Dynamics Under Attack | ![](figures/fig2_extended_dynamics_under_attack.png) | Demonstrates resilience under adversarial perturbations; shows local decoherence pockets healing via diffusion. |
+| **Fig. 3** – Alignment Faking Detector | ![](figures/fig3_alignment_faking_detector.png) | Highlights hidden preference islands (deep vs surface disagreement). |
+| **Fig. 4** – Phase Transition in Alignment | ![](figures/fig4_phase_transition_alignment.png) | Maps the critical training strength (\~1.81) where alignment transitions from faking → genuine. |
