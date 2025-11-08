@@ -92,19 +92,28 @@ All figures are automatically generated upon execution and saved as `.png` outpu
 
 ```
 alignment-as-coherence/
-├── alignment_as_coherence.py
-├── alignment_as_coherence_extended.py
-├── alignment_faking_detector.py
-├── alignment_faking_phase_diagram.py
-├── figures/
+├── figures/                               # Visual results and figure gallery
 │   ├── fig1_reaction_diffusion_baseline.png
-│   ├── fig2_extended_dynamics_attack.png
+│   ├── fig2_extended_dynamics_under_attack.png
 │   ├── fig3_alignment_faking_detector.png
-│   ├── fig4_phase_transition_critical.png
+│   ├── fig4_phase_transition_alignment.png
 │   └── FIGURE_CAPTIONS.txt
-├── ABSTRACT.txt
-├── MANIFEST.txt
-└── README.md
+│
+├── alignment_as_coherence.py              # Reaction–diffusion baseline simulation
+├── alignment_as_coherence_extended.py     # Heterogeneous diffusion + adversarial dynamics
+├── alignment_faking_detector.py           # Deep vs surface field divergence analysis
+├── alignment_faking_phase_diagram.py      # Phase transition and critical strength mapping
+├── coherence_validation_template.py       # Validation hooks for future empirical models
+│
+├── ABSTRACT.txt                           # High-level conceptual summary
+├── MANIFEST.txt                           # File and method index
+├── Fellows_proposal.md                    # Research fellowship submission draft
+├── README.md                              # Main documentation (this file)
+├── RELEASE_NOTES_v1.0.txt                 # Version history and changes
+├── LICENSE.txt                            # MIT License (open-access research use)
+├── CITATION.cff                           # Formal citation metadata
+├── metadata.json                          # Supplemental dataset and run metadata
+└── paper.md                               # Research preprint (Zenodo/arXiv-ready)
 ```
 
 ---
