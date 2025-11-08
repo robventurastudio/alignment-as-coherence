@@ -96,7 +96,7 @@ alignment-as-coherence/
 │   ├── fig1_reaction_diffusion_baseline.png
 │   ├── fig2_extended_dynamics_under_attack.png
 │   ├── fig3_alignment_faking_detector.png
-│   ├── fig4_phase_transition_alignment.png
+│   ├── fig4_phase_transition_critical.png
 │   └── FIGURE_CAPTIONS.txt
 │
 ├── alignment_as_coherence.py              # Reaction–diffusion baseline simulation
