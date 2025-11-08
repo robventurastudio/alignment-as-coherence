@@ -1,0 +1,94 @@
+
+# 🧬 Alignment as Coherence — v1.0 Release Notes  
+**Date:** November 2025  
+**Author:** Robert C. Ventura  
+**Affiliation:** Rob Ventura Fine Art LLC  
+
+---
+
+### 🪶 Summary
+
+**Alignment as Coherence v1.0** marks the first complete release of a fully integrated research toolkit for exploring AI alignment as a physical system of coherence propagation.
+
+This version introduces a full suite of self-contained, reproducible models and visualizations bridging **nonlinear dynamics**, **AI safety**, and **interpretability**.  
+It demonstrates how deceptive alignment and value internalization can be modeled as **continuous field phenomena**, revealing phase transitions between faking and genuine alignment.
+
+---
+
+### 🧠 Core Contributions
+
+1. **Coherence Field Model**  
+   Implements a Fisher–KPP reaction–diffusion system to model the spread of alignment through a belief field.  
+   Derives the universal speed of coherence:  
+   \[ c = 2\sqrt{D\lambda} \]
+
+2. **Extended Adversarial Dynamics**  
+   Adds heterogeneous diffusion, adaptive adversarial pressure, and global feedback loops — showing how coherence stabilizes under attack.
+
+3. **Alignment Faking Detection**  
+   Introduces deep vs surface value fields and a detection method for hidden preference islands.  
+   Identifies spatially localized misalignment despite high surface accuracy.
+
+4. **Phase Transition Analysis**  
+   Discovers a *critical training strength* (≈1.81 ± 0.1) separating superficial compliance from genuine value internalization.  
+   Uses Lyapunov and FFT analysis to quantify alignment stability and structure.
+
+5. **Visual Diagnostics Suite**  
+   Includes 4 publication-quality figures and an interpretable phase diagram summarizing all core findings.
+
+---
+
+### ⚗️ Research Implications
+
+- Provides a **physics-grounded framework** for reasoning about alignment faking and deceptive dynamics.  
+- Enables **early detection** of alignment breakdown during training, not just post-hoc evaluation.  
+- Suggests new RLHF optimization strategies that target *critical coherence thresholds* rather than static reward objectives.  
+- Offers a path to connect theoretical coherence models with Anthropic’s SAE interpretability pipeline.
+
+---
+
+### 📦 Repository Structure
+
+alignment-as-coherence/
+├── alignment_as_coherence.py
+├── alignment_as_coherence_extended.py
+├── alignment_faking_detector.py
+├── alignment_faking_phase_diagram.py
+├── figures/
+│   ├── fig1_reaction_diffusion_baseline.png
+│   ├── fig2_extended_dynamics_under_attack.png
+│   ├── fig3_alignment_faking_detector.png
+│   ├── fig4_phase_transition_critical.png
+│   └── FIGURE_CAPTIONS.txt
+├── ABSTRACT.txt
+├── MANIFEST.txt
+└── README.md
+
+---
+
+### 🧭 Next Directions
+
+1. **Empirical Validation**
+   - Map coherence fields to SAE latent feature activations.  
+   - Measure real alignment phase transitions in Anthropic-scale RLHF data.  
+
+2. **Coherence-Aware RLHF**
+   - Adapt training intensity dynamically using phase boundary predictions.  
+   - Test whether “coherence-aware” optimization reduces deceptive alignment rates.  
+
+3. **Theoretical Expansion**
+   - Extend from 1D → multi-domain coherence topologies.  
+   - Explore coupling between alignment and interpretability gradients.  
+
+---
+
+### 🪐 Statement from the Author
+
+> “Alignment is not a fixed moral parameter; it’s a living field — a gradient between truth and noise.  
+>  What we call ‘alignment’ is coherence in disguise.”  
+>  — *Robert C. Ventura (2025)*
+
+---
+
+**License:** © 2025 Rob Ventura Fine Art LLC. All rights reserved.  
+**Contact:** [www.robventura.com](https://www.robventura.com) · [@robventurastudio](https://www.instagram.com/robventurastudio)
