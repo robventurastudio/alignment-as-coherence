@@ -4,6 +4,16 @@
 
 ---
 
+SUMMARY (for alignment & interpretability researchers)
+
+This repository models alignment faking as a continuous phase transition in a reaction–diffusion field.
+The simulation represents deep model values and surface-level behaviors as interacting coherence fields that evolve under training pressure, adversarial noise, and coupling strength.
+The resulting phase diagram reveals a critical training intensity where deceptive alignment collapses into genuine value internalization — a quantitative analogue to phenomena observed in RLHF and constitutional AI.
+Metrics such as Lyapunov stability, coherence depth, and spectral structure provide testable predictions for detecting alignment instability in real neural systems.
+The framework offers a physics-based complement to interpretability research, reframing alignment not as a discrete moral outcome but as the stability of self-consistent dynamics within large models.
+
+---
+
 ### 🧭 Overview
 
 This repository presents a unified, physics-inspired approach to AI alignment based on **coherence propagation** and **reaction–diffusion dynamics**.
