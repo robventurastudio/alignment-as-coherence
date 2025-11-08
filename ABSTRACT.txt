@@ -1,0 +1,43 @@
+TITLE: Alignment as Coherence — A Physics-Based Framework for Detecting Deceptive Alignment
+
+AUTHOR: Robert C. Ventura
+
+SUMMARY:
+This project models alignment not as a discrete property of outputs, but as
+a continuous reaction–diffusion process that governs how "beliefs" or internal
+value signals propagate inside an AI system. Using Fisher–KPP style dynamics,
+heterogeneous diffusion, and global feedback, the framework exhibits
+phase-transition behavior between deceptive (surface-only) alignment and
+genuine (deep) value internalization.
+
+The codebase provides:
+- A minimal coherence front model (`alignment_as_coherence.py`)
+- An extended heterogeneous, adversarial model
+  (`alignment_as_coherence_extended.py`)
+- A hidden-preference island detector
+  (`alignment_faking_detector.py`)
+- A full phase-analysis suite with:
+    - critical training intensity search,
+    - temporal persistence of misaligned regions,
+    - Lyapunov stability estimation,
+    - multiscale FFT-based structure analysis
+  (`alignment_faking_phase_diagram.py`)
+
+These tools yield testable predictions:
+- existence of a critical "training strength" below which alignment faking
+  persists,
+- quantitative indicators (Lyapunov, structure score, coherence depth)
+  that distinguish robust value internalization from fragile or deceptive
+  behavior.
+
+PROPOSED BRIDGE TO REAL MODELS:
+Map spatial coordinates to Sparse Autoencoder feature directions; interpret
+deep vs surface fields as pre-training vs RLHF-updated feature activations;
+estimate effective training strength from KL / reward gradients; validate
+phase-transition predictions against real checkpoint trajectories and
+behavioral evals.
+
+INTENT:
+This is a conceptual and experimental sandbox for researchers at organizations
+like Anthropic, OpenAI, Google DeepMind, or xAI to probe alignment dynamics
+with a physics-grade toolkit.

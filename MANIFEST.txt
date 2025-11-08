@@ -1,0 +1,29 @@
+ALIGNMENT AS COHERENCE — PROJECT MANIFEST
+Author: Robert C. Ventura
+Version: 1.0 (Nov 2025)
+
+FILES:
+- README.md
+- MANIFEST.txt
+- ABSTRACT.txt
+- LICENSE.txt
+- CITATION.cff
+- metadata.json
+- alignment_as_coherence.py
+- alignment_as_coherence_extended.py
+- alignment_faking_detector.py
+- alignment_faking_phase_diagram.py
+- coherence_validation_template.py
+
+REQUIREMENTS:
+- Python >= 3.10
+- numpy
+- matplotlib
+
+QUICK START:
+- Minimal demo:
+    python alignment_as_coherence.py
+- Full phase analysis (slow):
+    python alignment_faking_phase_diagram.py
+- Faster phase analysis:
+    python alignment_faking_phase_diagram.py --quick

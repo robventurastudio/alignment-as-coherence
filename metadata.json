@@ -1,0 +1,27 @@
+{
+  "name": "alignment-as-coherence",
+  "version": "1.0",
+  "author": "Robert C. Ventura",
+  "description": "A research toolkit modeling alignment as coherence and phase transitions using reaction\u2013diffusion style dynamics.",
+  "keywords": [
+    "AI alignment",
+    "deceptive alignment",
+    "reaction-diffusion",
+    "phase transitions",
+    "Lyapunov stability",
+    "Sparse Autoencoders",
+    "RLHF"
+  ],
+  "files": [
+    "README.md",
+    "MANIFEST.txt",
+    "ABSTRACT.txt",
+    "LICENSE.txt",
+    "CITATION.cff",
+    "alignment_as_coherence.py",
+    "alignment_as_coherence_extended.py",
+    "alignment_faking_detector.py",
+    "alignment_faking_phase_diagram.py",
+    "coherence_validation_template.py"
+  ]
+}
